@@ -1,0 +1,38 @@
+.employee{
+  background-color:  #8aacc8;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size:20px;
+}
+.button1{
+  background-color:#8aacc8;
+  border: none;
+  color:black;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 16px;
+  justify-content: center;
+  margin-top: 250px;
+  margin-left: 750px;
+  font-weight: bold;
+}
+.button2{
+  background-color:#8aacc8;
+  border: none;
+  color:black;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 16px;
+  justify-content: center;
+  margin-top: 45px;
+  margin-left: 750px;
+  max-width: 300px;
+  font-weight: bold;
+}
+body{
+    background-color: #eeffff;
+    margin: 0px;
+}
+

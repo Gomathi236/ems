@@ -1,0 +1,26 @@
+table,tr,td{
+    border: 1px solid;
+    padding: 10px ;
+    margin-left: 450px;
+    margin-top: 90px;
+}
+th{
+    padding: 30px;
+    background-color:#8aacc8 ;
+}
+tbody{
+    border: 1px solid;
+
+}
+.employee{
+    
+    display: block;
+    text-align: center;
+    font-size:30px;
+    margin-top: 40px;
+
+  }
+  body{
+    background-color: #eeffff;
+    margin: 0px;
+  }

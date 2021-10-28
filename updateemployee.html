@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>edit employee</title>
+    <link rel="stylesheet" href="./css/edit.css">
+</head>
+<body>
+    <form id="form" action="showemployee.html">
+        <div>
+            <label><b>Name</b></label><br/>
+            <input type="text" id="name" class="form" >
+        </div>
+        <br/>
+        <div>
+            <label><b>Phone</b></label><br/>
+            <input type="number" id="number" class="form">
+        </div>
+        <br/>
+        <div>
+            <label><b>Email</b></label><br/>
+            <input type="email" id="email" class="form">
+        </div>
+        <br/>
+        <div>
+            <label><b>Address</b></label><br/>
+            <input type="text" id="address" class="form">
+        </div>
+        <br/>
+        <div>
+            <label><b>City</b></label><br/>
+            <input type="text" id="city" class="form">
+        </div>
+    <br/>
+        <div>
+            <label><b>Role</b></label><br/>
+            <select id="role" class="options" >
+                <option selected>--Select--</option>
+                <option>Developer</option>
+                <option>Designer</option>
+                <option>Hr</option>
+                <option>Accountant</option>
+            </select>
+        </div>
+        <br>
+    </form>
+    <button class="button1" onclick="editEmployee();" id="updatebtn">Update</button>
+    <button class="button2" id="cancelbtn"><a href="home.html" style="text-decoration: none;">Cancel</a></button> 
+   
+    <script src="./js/showemployee.js"></script>
+</body>
+</html>

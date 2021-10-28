@@ -1,0 +1,30 @@
+.employee{
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size:30px;
+  }
+  body{
+      margin: 0px;
+      background-color: #eeffff;
+  }
+  .button1{
+    background-color:#8aacc8;
+    border: none;
+    color:black;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  .button2{
+    background-color:#8aacc8;
+    border: none;
+    color:black;
+    padding: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    
+  }
